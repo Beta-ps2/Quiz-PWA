@@ -1,0 +1,29 @@
+{
+  "short_name": "QUIZ",
+  "name": "Que tipo de gato você é?",
+  "icons": [
+    {
+      "src": "icons/ponto-de-interrogacao-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/ponto-de-interrogacao-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/ponto-de-interrogacao-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/QUIZ/index.html",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#B7C0D7",
+  "background_color": "#E0E0E0"
+}

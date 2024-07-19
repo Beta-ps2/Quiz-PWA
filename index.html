@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons/ponto-de-interrogacao-144x144.png" type="image/png">
+    <link rel="manifest" href="manifest.json">
+
+    <title> QUIZ </title>
+</head>
+
+<body>
+    <main class="quiz-container">
+
+        <h2>Quiz - Que tipo de gato você é?</h2>
+
+        <form id="quizForm">
+
+            <div class="question">
+                <p>1. Qual seu nome?</p>
+                
+                <div class="options">
+                    <label><input type="text" name="q1" id="name" required> </label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>2. Você têm duas orelhas?</p>
+                
+                <div class="options">
+                    <label><input type="radio" name="q2" value="Sim"> Sim </label>
+                    <label><input type="radio" name="q2" value="Nao"> Não </label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>3. Gosta de beber água?</p>
+
+                <div class="options">
+                    <label><input type="radio" name="q3" value="Sim"> Sim </label>
+                    <label><input type="radio" name="q3" value="Nao"> Não </label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>4. Você costuma dormir?</p>
+
+                <div class="options">
+                    <label><input type="radio" name="q4" value="Sim"> Sim </label>
+                    <label><input type="radio" name="q4" value="Nao"> Não </label>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Enviar</button>
+
+        </form>
+
+        <div class="container-resultado">
+            <p>Essa é uma foto parecida com você.</p>
+
+            <button type="button" class="other-btn" onclick="voltarFormulario()">Voltar</button>
+        </div>
+        
+    </main>
+
+    <div id="container-placar">
+        <h3>Pessoas que jogaram: </h3>
+        <ul class="lista" id="lista">
+                
+                
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
