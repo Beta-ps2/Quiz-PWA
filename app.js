@@ -88,13 +88,5 @@ const randomCatPhoto = (json) => {
 function voltarFormulario() {
     document.getElementById('quizForm').style.display = 'block';
     document.querySelector(".container-resultado").style.display = 'none';
-
-    // Chama de novo para obter uma nova foto de gato
-    fetch(url)
-        .then(response => response.json())
-        .then(data => {
-            randomCatPhoto(data);
-        })
-        .catch(error => console.error('Erro ao obter foto de gato:', error));
 }
 
