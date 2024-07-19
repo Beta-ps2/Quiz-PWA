@@ -22,7 +22,6 @@ form.addEventListener('submit', function(event) {
     event.preventDefault();
 
     // COLETA RESPOSTAS
-    // atualmente nao faz sentido coletar tudo que o usuario coloca, mas nao quis deixar os dados sozinhos
     const answers = {
         q1: document.getElementById('name').value,
         q2: document.querySelector('input[name="q2"]:checked').value,
