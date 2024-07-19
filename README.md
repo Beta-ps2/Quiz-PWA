@@ -6,3 +6,4 @@ OBS: Só para relembrar, o Service Worker só funciona através do localhost ou 
 
 OBS 2: Deixar algum campo em banco não executa o código. 
 
+OBS 3: O navegador Opera não tem suporte para PWA. Mas funciona normal no Edge ou Chrome para desktop. Caso não apareça notificação no Chrome mobile, é só seguir os passos: Três pontos (canto superior direito) > Adicionar à tela inicial > instalar.
